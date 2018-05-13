@@ -4,6 +4,8 @@
   
   This library has been made to make it easy to use 128x64 pixel OLED displays
   based on the SSD1306 controller chip with an Arduino or a chipKit.
+  
+  Modyfied by Kristof Rogoza. Adding option of addres if oryginal is not working dependig at the screen.
 
   You can always find the latest version of the library at 
   http://www.RinkyDinkElectronics.com/
@@ -23,7 +25,7 @@
 #ifndef OLED_I2C_h
 #define OLED_I2C_h
 
-#define SSD1306_ADDR		0x3C
+#define SSD1306_ADDR		0x3C // or 0x3D 
 
 #define LEFT	0
 #define RIGHT	9999
